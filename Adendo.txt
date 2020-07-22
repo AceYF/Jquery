@@ -1,0 +1,6 @@
+Como o site foi criador em um web server os cokies estão atrelados a um endereço local sendo impossivel setar cookies
+simplesmente abrindo o arquivo.
+É necessário abrir por um web server. 
+
+E mudei as cores por perfumaria meu olho n aguentou ver verde e azul no msm lugar (eles sangraram).
+

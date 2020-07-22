@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/jquery/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="visual/main.css">
+    <script src="script/script.js"></script>
+    <script src="script/ponte.js"></script>
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="formulario" onsubmit="">
+        <form id="formularioCadastro" action="pages/sucess/sucess.html">
+            <div class="img">
+                <img src="img/user.svg" id="userImg" alt="">
+            </div>
+            <div>
+            </div>
+            <input id="nome" class="form-control" type="text" autocomplete="off" onkeyup="this.value=this.value.replace(/[^A-z]/g,'');" placeholder="Nome" required>
+            <input id="idade" class="form-control" max="90" min="16" type="number" placeholder="Idade" required>
+            <input id="turma" class="form-control" type="text" placeholder="Turma" maxlength="4" minlength="4" required>
+            <button type="submit" href="../visualizaCadastro/visualizaCadastro.html" class="btn btn-primary btn-lg btn-block">Cadastrar usuário</button>
+        </form>
+    </div>
+</body>
+
+</html>
